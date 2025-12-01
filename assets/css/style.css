@@ -1,0 +1,15 @@
+
+body {font-family: "Roboto", sans-serif}
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald", sans-serif}
+
+.t1-red-text {color: #E4002B !important;}
+.t1-red-bg {background-color: #E4002B !important; color: white;}
+
+.member-img {
+    width: 100%; 
+    height: 300px; 
+    object-fit: cover; 
+    border-bottom: 3px solid #E4002B;
+    transition: 0.3s;
+}
+.member-img:hover {transform: scale(1.03);}
